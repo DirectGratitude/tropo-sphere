@@ -8,6 +8,12 @@ A simple implementation of recording a Tropo phone call and storing it in an s3 
 
 === demo: call +1(415) 935-1929
 
+=== edit:
+
+  config/amazon_s3
+
+
+
 === commands:
 
   bundle
