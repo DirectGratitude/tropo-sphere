@@ -10,7 +10,7 @@ A simple implementation of recording a Tropo phone call and storing it in an s3 
 
 === edit:
 
-  config/amazon_s3
+  config/amazon_s3.yml
 
 
 
