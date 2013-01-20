@@ -56,6 +56,9 @@ post '/record.json' do
 
   t.on :event => 'hangup', :next => '/hangup.json?filename=' + filename + '&callerID=' + callerID
 
+  # be sure to change the url to your own
+  # note: a full url works best
+
   t.record({:name => 'recording',
             :voice => "Veronica",
             :timeout => 60,
